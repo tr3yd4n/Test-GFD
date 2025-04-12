@@ -5,36 +5,21 @@
 <template>
 
   <!-- Our Story -->
-  <section class="w-full py-16 bg-gray-100">
-    <h2 class="text-3xl text-center mb-8">Our Story</h2>
-    <div class="container mx-auto px-4">
-      <div>
-        <img src="https://picsum.photos/536/354" class="w-[280px] h-[155px] object-cover border-[7px] border-white" />
-        <div class="flex items-center mt-4">
-          <p class="italic font-normal text-[14.4px] mr-2">Bi-Fold Doors</p>
-          <div class="w-6 h-6 bg-black rounded-full"></div>
-          <div class="w-[60px] h-[1px] bg-black ml-2"></div>
-        </div>
-      </div>
-      <div>
-        <img src="https://picsum.photos/536/354" class="w-[684px] h-[473px] object-cover ml-[22px]" />
+  <section class="w-full bg-gray-100">
+
+  <!-- Mobile and Desktop Layout Combined -->
+  <div class="relative overflow-hidden">
+
+    <!-- Mobile Layout -->
+    <div class="w-100 h-[767px] relative bg-neutral-100 sm:hidden">
+      <img class="w-[684px] h-[473px] left-[22px] top-[28px] absolute" src="https://placehold.co/684x473" />
+      <img class="w-[274px] h-[155px] left-[132px] top-[10px] absolute border-[7px] border-white" src="https://placehold.co/260x141" />
+      <div class="w-15 left-[47px] top-[78px] absolute justify-start text-black font-['Red_Hat_Display']">
+        Bi-Fold Doors
       </div>
     </div>
-  </section>
-
-
-  <!-- Company Values -->
-  <section class="w-full py-16 bg-gray-50">
-    <h2 class="text-3xl text-center mb-8">Company Values</h2>
-    <div class="container mx-auto px-4">
-    </div>
-  </section>
-
-  <!-- The Team -->
-  <section class="w-full py-16 bg-gray-100">
-    <h2 class="text-3xl text-center mb-8">The Team</h2>
-    <div class="container mx-auto px-4">
-    </div>
+  
+  </div>
   </section>
 </template>
 
