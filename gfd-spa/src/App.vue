@@ -1,9 +1,9 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import GFDMain from './components/GFDMain.vue'
 </script>
 
 <template>
-  <HelloWorld msg="Vite + Vue" />
+  <GFDMain msg="Vite + Vue" />
 </template>
 
 <style scoped>
