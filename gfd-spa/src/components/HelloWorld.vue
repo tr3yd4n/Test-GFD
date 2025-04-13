@@ -39,6 +39,14 @@ const users = [
     jobTitle: "Job Title",
   },
 ];
+
+const exampleImages = [
+  "/images/exampleGroupA/RectangleA.jpg",
+  "/images/exampleGroupA/RectangleB.jpg",
+  "/images/exampleGroupA/RectangleC.jpg",
+  "/images/exampleGroupA/RectangleD.jpg",
+  "/images/exampleGroupA/RectangleE.jpg",
+];
 </script>
 
 <template>
@@ -66,7 +74,7 @@ const users = [
   </section>
 
   <!--Company Value & Ethos-->
-  <section class="w-full mt-12">
+  <section class="w-full mt-32 md:h-[730px]">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-6">
       <!-- Image Column -->
       <div class="w-full md:w-1/2">
@@ -81,7 +89,7 @@ const users = [
             Company <br />Values & Ethos
           </h2>
         </div>
-        <div class="relative w-full h-[260px] md:h-full overflow-hidden">
+        <div class="relative w-full h-[260px] md:h-full overflow-hidden lg:mt-10">
           <img
             src="/images/_dsf2305_52920521840_o 2.jpg"
             alt="Placeholder 1"
@@ -101,9 +109,19 @@ const users = [
       </div>
 
       <!-- Content Column -->
-      <div class="w-full md:w-2/3 py-4">
-        <div class="w-100% h-[153px] bg-red-500 mb-8 mr-6 lg:mr-0"></div>
-
+      <div class="w-full md:w-2/3 ">
+        <!-- <div class="w-100% h-[153px] bg-red-500 mb-8 lg:mb-9 mr-6 lg:mr-0"></div> -->
+  <div class="overflow-hidden w-full mb-8 lg:mb-19 ml-6 lg:ml-0">
+    <div class="flex flex-nowrap gap-0">
+      <img
+        v-for="(img, index) in exampleImages"
+        :key="index"
+        :src="img"
+        alt="Group image"
+        class="h-[112px] md:h-[128px] lg:h-[153px] object-cover flex-shrink-0 p-0 m-0"
+      />
+    </div>
+  </div>
         <p
           class="p-8 mb-8 bg-black text-sm md:text-base lg:text-lg text-white md:bg-transparent md:text-black md:mb-1 md:p-2 md:hidden"
         >
@@ -113,7 +131,7 @@ const users = [
           size.
         </p>
 
-        <div class="w-100% h-[173.8px] bg-blue-500 mb-8 ml-6 lg:ml-0"></div>
+        <div class="w-100% h-[173.8px] bg-blue-500 mb-8 lg:mb-19 ml-6 lg:ml-0"></div>
 
         <p
           class="p-8 mb-8 bg-black text-sm md:text-base lg:text-lg text-white md:bg-transparent md:text-black md:mb-1 md:p-2 md:hidden"
@@ -123,8 +141,9 @@ const users = [
           foundations of the business on. Our staff are friendly, knowledgeable
           and always happy to assist.
         </p>
+        
         <p
-          class="hidden md:block pt-12 text-base lg:text-lg bg-transparent text-black"
+          class="hidden md:block pt-12 text-base lg:text-lg bg-transparent text-black h-[221px] lg:pb-[70px]"
         >
           We know that our continued success is down to our customers, and
           treating them with respect. Starting from humble beginnings means that
@@ -143,9 +162,9 @@ const users = [
 
   <!--Our Team Section -->
 
-  <section class="w-full mt-12">
+  <section class="w-full mt-6">
     <div class="max-w-7xl mx-auto flex flex-col gap-6">
-      <div class="w-100% border-b border-black mb-4 ml-6">
+      <div class="w-100% border-b border-black ml-6">
         <h2 class="text-xl md:text-3xl lg:text-5xl font-bold pb-2">Our Team</h2>
       </div>
 
