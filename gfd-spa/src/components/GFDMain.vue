@@ -100,7 +100,7 @@ const users = [
       </div>
 
       <!--Team Grid (will make into a component when adding pagination controls)-->
-      <div class="w-100% flex flex-wrap justify-content-between gap-3 ml-6">
+      <div class="w-100% flex flex-wrap justify-between gap-y-4 md:gap-y-6 lg:gap-y-7 ml-6">
         <TeamCard
           v-for="user in users"
           :key="user.name"
@@ -111,9 +111,11 @@ const users = [
         />
       </div>
     </div>
+  
+
   </section>
 
-
+  
 
 </template>
 

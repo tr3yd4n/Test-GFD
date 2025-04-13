@@ -2,11 +2,16 @@
   <section class="w-full mt-6">
     <div class="max-w-7xl mx-auto flex flex-col gap-6">
       <div class="w-100% border-b border-black ml-6">
-        <h2 class="text-xl md:text-3xl lg:text-5xl font-bold pb-2">Our Team</h2>
+        <h2
+          class="text-xl md:text-3xl lg:text-5xl pb-2"
+          style="font-family: 'Red Hat Display', sans-serif"
+        >
+          Our Team
+        </h2>
       </div>
 
       <!--Buttons for Team Grid pagination-->
-      <div class="flex gap-1 ml-6">
+      <div class="flex gap-1 ml-6 w-full justify-start lg:justify-end">
         <button
           class="w-6 h-6 rounded-full bg-black flex items-center justify-center"
         >
@@ -47,7 +52,9 @@
       </div>
 
       <!--Team Grid (will make into a component when adding pagination controls)-->
-      <div class="w-100% flex flex-wrap justify-content-between gap-3 ml-6">
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-6 ml-6 justify-between"
+      >
         <TeamCard
           v-for="teamMember in teamMembers"
           :key="teamMember.name"
@@ -58,8 +65,6 @@
         />
       </div>
     </div>
-
-
   </section>
 </template>
 

@@ -13,6 +13,7 @@
           ></div>
           <h2
             class="text-xl md:text-3xl lg:text-5xl font-bold absolute top-0 left-[35px] h-[52px]"
+            style="font-family: 'Red Hat Display', sans-serif"
           >
             Company <br />Values & Ethos
           </h2>
@@ -46,7 +47,7 @@
       <!-- Content Column -->
       <div class="w-full md:w-2/3">
         <!-- <div class="w-100% h-[153px] bg-red-500 mb-8 lg:mb-9 mr-6 lg:mr-0"></div> -->
-        <div class="overflow-hidden w-full mb-8 lg:mb-19 ml-6 lg:ml-0">
+        <div class="overflow-hidden w-full mb-8 lg:mb-10 ml-9 lg:ml-0">
           <div class="flex flex-nowrap gap-0">
             <img
               v-for="(img, index) in exampleImages"
@@ -58,7 +59,8 @@
           </div>
         </div>
         <p
-          class="p-8 mb-8 bg-black text-sm md:text-base lg:text-lg text-white md:bg-transparent md:text-black md:mb-1 md:p-2 md:hidden"
+          class="p-8 ml-2 mb-8 bg-black text-sm md:text-base lg:text-lg text-white md:bg-transparent md:text-black md:mb-1 md:p-2 md:hidden"
+          style="font-family: 'Red Hat Display', sans-serif"
         >
           We know that our continued success is down to our customers, and
           treating them with respect. Starting from humble beginnings means that
@@ -67,11 +69,12 @@
         </p>
 
         <div
-          class="w-100% h-[173.8px] bg-blue-500 mb-8 lg:mb-19 ml-6 lg:ml-0"
+          class="w-100% h-[173.8px] bg-blue-500 mb-8 lg:mb-10 ml-9 lg:ml-0"
         ></div>
 
         <p
-          class="p-8 mb-8 bg-black text-sm md:text-base lg:text-lg text-white md:bg-transparent md:text-black md:mb-1 md:p-2 md:hidden"
+          class="p-8 ml-2 mb-8 bg-black text-sm md:text-base lg:text-lg text-white md:bg-transparent md:text-black md:mb-1 md:p-2 md:hidden"
+          style="font-family: 'Red Hat Display', sans-serif"
         >
           As the world becomes more automated by the day, we promise never to
           lose the personal touch with our customers that we built the
@@ -80,7 +83,8 @@
         </p>
 
         <p
-          class="hidden md:block pt-12 text-base lg:text-lg bg-transparent text-black h-[221px] lg:pb-[70px]"
+          class="hidden font-semibold md:block pt-12 lg:text-base bg-transparent text-black h-[221px] lg:pb-[70px]"
+          style="font-family: 'Red Hat Display', sans-serif"
         >
           We know that our continued success is down to our customers, and
           treating them with respect. Starting from humble beginnings means that
@@ -93,6 +97,7 @@
           foundations of the business on. Our staff are friendly, knowledgeable
           and always happy to assist.
         </p>
+        <hr class="w-full border-t border-black mt-6" />
       </div>
     </div>
   </section>
