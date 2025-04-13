@@ -1,19 +1,35 @@
 <template>
-  <div class="w-[130px] h-[174]">
-    
-    <!--<p class="italic font-semibold text-gray-800 hidden">{{ job title }}</h3>-->
+  <div
+    class="relative group w-[130px] h-[174px] overflow-hidden"
+  >
+    <!-- Job Title (Top Reveal) -->
+    <p
+      class="absolute top-0 left-0 w-full h-[10%] bg-white text-xs text-center italic font-semibold text-gray-800 translate-y-[-100%] opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-in-out z-10"
+    >
+      {{ jobTitle }}
+    </p>
+
+    <!-- Main Image (Default) -->
     <img
       :src="image"
       :alt="name"
-      class="w-[130px] h-[174px] object-cover"
+      class="w-full h-full object-cover absolute top-0 left-0 transition-opacity duration-500 group-hover:opacity-0"
     />
-    <RouterLink
-    :to="'/user-card'"
-    class="w-64 p-4 bg-white shadow-md rounded-lg hover:shadow-lg transition-shadow duration-300 hidden"
-    >
-        View Profile
-    </RouterLink>
 
+    <!-- Hover Image (image2) -->
+    <img
+      :src="image2"
+      :alt="`${name} hover image`"
+      class="w-full h-full object-cover absolute top-0 left-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100"
+    />
+
+    <!-- Router Link (Bottom Reveal) -->
+    <RouterLink
+      :to="'/user-card'"
+      class="absolute bottom-0 left-0 w-full h-[10%] bg-white text-xs text-center font-medium text-gray-800 translate-y-full opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all duration-500 ease-in-out z-10 cursor-pointer"
+    >
+      View Profile
+    </RouterLink>
   </div>
 </template>
 
@@ -21,5 +37,7 @@
 defineProps({
   name: String,
   image: String,
+  image2: String,
+  jobTitle: String,
 })
 </script>

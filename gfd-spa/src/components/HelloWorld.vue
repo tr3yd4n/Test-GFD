@@ -2,12 +2,42 @@
 import TeamCard from "./TeamCard.vue";
 
 const users = [
-  { name: "Alice Johnson", image: "https://placehold.co/130x173" },
-  { name: "Bob Smith", image: "https://placehold.co/130x173" },
-  { name: "Claire Lee", image: "https://placehold.co/130x173" },
-  { name: "David Brown", image: "https://placehold.co/130x173" },
-  { name: "Ella Rose", image: "https://placehold.co/130x173" },
-  { name: "Jack Jones", image: "https://placehold.co/130x173" },
+  {
+    name: "Alice Johnson",
+    image: "https://placehold.co/130x173",
+    image2: "https://placehold.co/130x173",
+    jobTitle: "Job Title",
+  },
+  {
+    name: "Bob Smith",
+    image2: "https://placehold.co/130x173",
+    image: "https://placehold.co/130x173",
+    jobTitle: "Job Title",
+  },
+  {
+    name: "Claire Lee",
+    image: "https://placehold.co/130x173",
+    image2: "https://placehold.co/130x173",
+    jobTitle: "Job Title",
+  },
+  {
+    name: "David Brown",
+    image: "https://placehold.co/130x173",
+    image2: "https://placehold.co/130x173",
+    jobTitle: "Job Title",
+  },
+  {
+    name: "Ella Rose",
+    image: "https://placehold.co/130x173",
+    image2: "https://placehold.co/130x173",
+    jobTitle: "Job Title",
+  },
+  {
+    name: "Jack Jones",
+    image: "https://placehold.co/130x173",
+    image2: "https://placehold.co/130x173",
+    jobTitle: "Job Title",
+  },
 ];
 </script>
 
@@ -45,12 +75,13 @@ const users = [
           <div
             class="bg-blue-100 w-[126px] h-[98px] absolute top-0 right-0 z-2"
           ></div>
-          <h2 class="text-[20px] font-bold absolute top-0 left-[35px] w-[153px] h-[52px]">
-            Company <br>Values & Ethos
+          <h2
+            class="text-[20px] font-bold absolute top-0 left-[35px] w-[153px] h-[52px]"
+          >
+            Company <br />Values & Ethos
           </h2>
-          </div>
+        </div>
         <div class="relative w-full h-[260px] overflow-hidden">
-
           <img
             src="https://placehold.co/269x171"
             alt="Placeholder 1"
@@ -61,9 +92,7 @@ const users = [
             alt="Placeholder 2"
             class="absolute top-[105px] left-[35px]"
           />
-          
         </div>
-    
       </div>
 
       <!-- Content Column -->
@@ -146,6 +175,8 @@ const users = [
         :key="user.name"
         :name="user.name"
         :image="user.image"
+        :image2="user.image2"
+        :job-title="user.jobTitle"
       />
     </div>
   </section>
