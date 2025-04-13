@@ -8,6 +8,9 @@
           <div
             class="bg-gray-100 w-[126px] h-[98px] absolute top-0 right-0 md:hidden"
           ></div>
+          <div
+            class="bg-gray-100 w-full h-[101px] absolute top-[167px] left-0 md:hidden shadow-md shadow-gray-400"
+          ></div>
           <h2
             class="text-xl md:text-3xl lg:text-5xl font-bold absolute top-0 left-[35px] h-[52px]"
           >
@@ -15,12 +18,12 @@
           </h2>
         </div>
         <div
-          class="relative w-full h-[260px] md:h-full overflow-hidden lg:mt-10"
+          class="relative w-full h-[260px] md:h-full overflow-hidden lg:mt-10 flex justify-center items-center"
         >
           <img
             src="/images/_dsf2305_52920521840_o 2.jpg"
             alt="Placeholder 1"
-            class="absolute top-0 left-[114px] z-10 w-[269px] h-[171px] object-cover shadow-md"
+            class="absolute top-0 left-[114px] z-10 w-[269px] h-[171px] object-cover shadow-md pr-8 mr-4"
           />
           <img
             src="/images/_dsf2246_52920591768_o.jpg"
@@ -31,6 +34,11 @@
             src="/images/DSI_Solid_Core_Thatched Cottage V1_170731 1.jpg"
             alt="Placeholder 2"
             class="absolute top-[317px] left-[257px] w-[170px] h-[235px] object-cover hidden md:block"
+          />
+          <img
+            src="/images/DSI_Solid_Core_Thatched Cottage V1_170731 1.jpg"
+            alt="Placeholder 2"
+            class="absolute top-[50px] left-[450px] w-[170px] h-[235px] object-cover md:hidden"
           />
         </div>
       </div>
