@@ -7,11 +7,11 @@ const users = [
   { name: "Claire Lee", image: "https://placehold.co/130x173" },
   { name: "David Brown", image: "https://placehold.co/130x173" },
   { name: "Ella Rose", image: "https://placehold.co/130x173" },
+  { name: "Jack Jones", image: "https://placehold.co/130x173" },
 ];
 </script>
 
 <template>
-
   <!-- Our Story -->
   <section class="w-full bg-gray-100">
     <!-- Mobile and Desktop Layout Combined -->
@@ -37,36 +37,64 @@ const users = [
 
   <!--Company Value & Ethos-->
   <section class="w-full bg-gray-100 py-8">
-  <div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row gap-6">
+    <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-6">
+      <!-- Image Column -->
+      <div class="w-full md:w-1/2">
+        <!-- <h2 class="text-2xl font-bold pb-2">Company Values & Ethos</h2> -->
+        <div class="relative w-full h-[98px]">
+          <div
+            class="bg-blue-100 w-[126px] h-[98px] absolute top-0 right-0 z-2"
+          ></div>
+          <h2 class="text-[20px] font-bold absolute top-0 left-[35px] w-[153px] h-[52px]">
+            Company <br>Values & Ethos
+          </h2>
+          </div>
+        <div class="relative w-full h-[260px] overflow-hidden">
+
+          <img
+            src="https://placehold.co/269x171"
+            alt="Placeholder 1"
+            class="absolute top-0 left-[114px] border-2 z-1"
+          />
+          <img
+            src="https://placehold.co/214x155"
+            alt="Placeholder 2"
+            class="absolute top-[105px] left-[35px]"
+          />
+          
+        </div>
     
-    <!-- Image Column -->
-    <div class="w-full md:w-1/2 p-4">
-      <h2 class="text-2xl font-bold pb-2">Company Values & Ethos</h2>
+      </div>
+
+      <!-- Content Column -->
+      <div class="w-full md:w-2/3 py-4">
+        <div class="w-100% h-[153px] bg-red-500 mb-4 mr-6 lg:mr-0"></div>
+
+        <div class="w-100% h-[173.8px] bg-blue-500 mb-4 ml-6 lg:ml-0"></div>
+
+        <p
+          class="p-8 bg-black text-sm md:text-base lg:text-lg text-white md:bg-transparent md:text-black mb-4"
+        >
+          We know that our continued success is down to our customers, and
+          treating them with respect. Starting from humble beginnings means that
+          we value each and every customer equally, regardless of the order
+          size.
+        </p>
+        <p
+          class="p-8 bg-black text-sm md:text-base lg:text-lg text-white md:bg-transparent md:text-black mb-4"
+        >
+          As the world becomes more automated by the day, we promise never to
+          lose the personal touch with our customers that we built the
+          foundations of the business on. Our staff are friendly, knowledgeable
+          and always happy to assist.
+        </p>
+      </div>
     </div>
-
-    <!-- Content Column -->
-    <div class="w-full md:w-2/3 p-4">
-      <h2 class="text-xl font-bold mb-4">Content</h2>
-      <div class="w-full h-[153px] bg-red-500 mb-4"></div>
-
-      <div class="w-full h-[173.8px] bg-blue-500 mb-4"></div>
-
-<p class="p-4 bg-black text-sm text-white md:bg-transparent md:text-black mb-4">
-  We know that our continued success is down to our customers, and treating them with respect. Starting from humble beginnings means that we value each and every customer equally, regardless of the order size.
-</p>
-<p class="p-4 bg-black text-sm text-white md:bg-transparent md:text-black mb-4">
-  As the world becomes more automated by the day, we promise never to lose the personal touch with our customers that we built the foundations of the business on. Our staff are friendly, knowledgeable and always happy to assist.
-</p>
-
-    </div>
-
-  </div>
-</section>
-
+  </section>
 
   <!--Our Team Section -->
-  <section class="">
-    <div class="w-full border-b border-black mb-6 ml-6">
+  <section class="py-4">
+    <div class="w-100% border-b border-black mb-6 ml-6">
       <h2 class="text-2xl font-bold pb-2">Our Team</h2>
     </div>
 
@@ -112,7 +140,7 @@ const users = [
     </div>
 
     <!--Team Grid (will make into a component when adding pagination controls)-->
-    <div class="w-100 flex flex-wrap gap-1 p-4">
+    <div class="w-100% flex flex-wrap justify-content-between gap-3 ml-6 mt-6">
       <TeamCard
         v-for="user in users"
         :key="user.name"
@@ -121,7 +149,6 @@ const users = [
       />
     </div>
   </section>
-
 </template>
 
 <style scoped></style>
