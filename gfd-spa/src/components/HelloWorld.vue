@@ -1,4 +1,5 @@
 <script setup>
+import TeamCard from './TeamCard.vue'
 </script>
 
 
@@ -21,6 +22,19 @@
   
   </div>
   </section>
+
+
+  <!--Our Team Section -->
+  <section class="p-8">
+    <div class="w-full border-b border-black mb-6">
+      <h2 class="text-2xl font-bold pb-2">Our Team</h2>
+    </div>
+    <TeamCard name="Alice Johnson" image="https://placehold.co/130x174" />
+  </section>
+
+
+
+
 </template>
 
 
