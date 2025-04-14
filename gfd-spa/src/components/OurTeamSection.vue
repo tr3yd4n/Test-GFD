@@ -1,6 +1,6 @@
 <template>
-  <section class="w-full mt-6">
-    <div class="max-w-7xl mx-auto flex flex-col gap-5">
+  <section class="w-full mt-6 lg:mt-48">
+    <div class="max-w-8xl mx-auto flex flex-col gap-5 lg:pl-20">
       <div class="w-100% border-b border-black ml-6">
         
         <h2

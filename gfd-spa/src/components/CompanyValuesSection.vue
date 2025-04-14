@@ -1,8 +1,8 @@
 <template>
-  <section class="w-full md:h-[730px] pt-14">
-    <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-6">
+  <section class="w-full md:h-[730px] pt-14 lg:pt-32">
+    <div class="max-w-8xl mx-auto flex flex-col md:flex-row gap-6 lg:pl-20">
       <!-- Image Column -->
-      <div class="w-full md:w-1/2">
+      <div class="w-full md:w-1/2 lg:w-1/3">
         <!-- <h2 class="text-2xl font-bold pb-2">Company Values & Ethos</h2> -->
         <div class="relative w-full h-[98px]">
           <div
@@ -84,8 +84,8 @@
       :src="img"
       alt="Group image"
       :class="[
-        'h-[112px] md:h-[128px] lg:h-[153px] object-cover flex-shrink-0 p-0 m-0',
-        index !== exampleImages2.length - 1 ? '-ml-[2px]' : '',
+        'h-[112px] md:h-[128px] lg:w-max lg:h-[153px] object-cover flex-shrink-0 p-0 m-0',
+        // index !== exampleImages2.length - 1 ? '-ml-[2px]' : '',
       ]"
     />
   </div>
