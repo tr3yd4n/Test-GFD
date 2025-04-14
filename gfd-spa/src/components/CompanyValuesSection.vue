@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full mt-32 md:h-[730px]">
+  <section class="w-full md:h-[730px]">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-6">
       <!-- Image Column -->
       <div class="w-full md:w-1/2">
@@ -8,9 +8,10 @@
           <div
             class="bg-gray-100 w-[126px] h-[98px] absolute top-0 right-0 md:hidden"
           ></div>
-          <div
-            class="bg-gray-100 w-full h-[101px] absolute top-[167px] left-0 md:hidden shadow-md shadow-gray-400"
-          ></div>
+ <div
+  class="bg-gray-100 w-full h-[101px] absolute top-[195px] left-0 md:hidden shadow-md shadow-gray-400"
+></div>
+
           <h2
             class="text-xl md:text-3xl lg:text-5xl font-bold absolute top-0 left-[35px] h-[52px]"
             style="font-family: 'Red Hat Display', sans-serif"
@@ -25,14 +26,14 @@
   <img
     src="/images/_dsf2305_52920521840_o 2.jpg"
     alt="Placeholder 1"
-    class="w-full h-auto object-cover transform -translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2 -ml-1 -mb-40"
+    class="w-full h-auto object-cover transform -translate-x-1/2 -translate-y-1/2 absolute top-1/2 left-1/2 -ml-1 -mb-40 shadow-sm"
   />
 </div>
 
           <img
             src="/images/_dsf2246_52920591768_o.jpg"
             alt="Placeholder 2"
-            class="absolute top-[105px] left-[35px] w-[214px] h-[155px] object-cover"
+            class="absolute top-[105px] left-[35px] w-[214px] h-[155px] object-cover shadow-sm"
           />
           <img
             src="/images/DSI_Solid_Core_Thatched Cottage V1_170731 1.jpg"
@@ -51,7 +52,7 @@
       <div class="w-full md:w-2/3">
         <!-- <div class="w-100% h-[153px] bg-red-500 mb-8 lg:mb-9 mr-6 lg:mr-0"></div> -->
         <div class="overflow-hidden w-full mb-8 lg:mb-10 lg:ml-0">
-  <div class="flex flex-nowrap w-full -ml-92 sm:-ml-46 md:-ml-24 lg:-ml-0">
+  <div class="flex flex-nowrap w-full -ml-92 sm:-ml-46 md:-ml-0 lg:-ml-0">
     <img
       v-for="(img, index) in exampleImages"
       :key="index"
