@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full md:h-[730px]">
+  <section class="w-full md:h-[730px] pt-14">
     <div class="max-w-7xl mx-auto flex flex-col md:flex-row gap-6">
       <!-- Image Column -->
       <div class="w-full md:w-1/2">
