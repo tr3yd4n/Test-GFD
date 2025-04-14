@@ -13,23 +13,32 @@
         class="absolute transition-all duration-700 ease-in-out w-[684px] h-[473px] top-[154px] left-[22px] md:w-[892px] md:h-[617px] md:top-[26px] md:left-[327px]"
       />
       <div
-        class="absolute bg-white transition-all duration-700 ease-in-out w-60 h-72 top-[198px] left-[9px] md:w-[720px] md:h-96 md:top-[67px] md:left-[424px] pl-6 pb-6 pt-6"
+        class="absolute bg-white transition-all duration-700 ease-in-out w-60 h-72 top-[198px] left-[9px] md:w-[720px] md:h-96 md:top-[67px] md:left-[424px] pl-6 lg:pl-12 pb-6 pt-6"
       >
         <h2
-          class="text-xl md:text-3xl lg:text-5xl font-bold mt-2 pb-2"
+          class="text-xl md:text-3xl lg:text-5xl font-bold mt-2"
           style="font-family: 'Red Hat Display', sans-serif"
         >
           Our Story
         </h2>
-        <hr class="w-full border-t border-black mb-2" />
+        <hr class="w-full border-t border-black my-4" />
         <p
-          class="text-sm md:text-base lg:text-lg pr-6"
+          class="text-sm md:text-base lg:text-md pr-6 max-w-[468px]"
           style="font-family: 'Red Hat Display', sans-serif"
         >
           Coming from a lifelong background in the double glazing industry, we
           began trading online in 2008. Our core product offering was composite
           doors, and we were one of the first companies in the UK to pioneer
           online ordering for this product.
+        </p>
+        <p
+          class="hidden lg:block text-md mt-2 max-w-[468px]"
+          style="font-family: 'Red Hat Display', sans-serif"
+        >
+          Over the past 15 years, we have expanded our portfolio of products
+          across a range of composite, aluminium, uPVC and security products.
+          Our goal was always to offer a complete home improvement solution,
+          which we now carry out nationwide through GFD Homes.
         </p>
       </div>
 
@@ -53,20 +62,26 @@
       >
         Bi-Fold <br />Doors
       </div>
+      <img
+        class="absolute top-[24px] left-[-300px] w-[463px] h-[463px] shadow-sm hidden lg:block"
+        src="/images/ourStoryImages/Rectangle 414.jpg"
+      />
+
+      <img
+        class="w-[103px] h-[244px] left-[90px] border-4 border-white top-[30px] absolute"
+        src="/images/ourStoryImages/blueDoor.jpg"
+      />
     </div>
   </section>
   <section class="w-full mt-32 lg:hidden relative mb-60">
-        
-      <p
-        class="font-redhat sm:w-full h-[286px] text-sm md:text-base lg:text-lg pt-4 ml-12 pl-6 bg-neutral-100"
-
-      >
-        Over the past 15 years, we have expanded our portfolio of products
-        across a range of composite, aluminium, uPVC and security products. Our
-        goal was always to offer a complete home improvement solution, which we
-        now carry out nationwide through GFD Homes.
-      </p>
-
+    <p
+      class="font-redhat sm:w-full h-[286px] text-sm md:text-base lg:text-lg pt-4 ml-12 pl-6 bg-neutral-100"
+    >
+      Over the past 15 years, we have expanded our portfolio of products across
+      a range of composite, aluminium, uPVC and security products. Our goal was
+      always to offer a complete home improvement solution, which we now carry
+      out nationwide through GFD Homes.
+    </p>
 
     <img
       class="absolute w-[145px] h-[261px] top-[162px] left-[75px] bg-transparent z-1"

@@ -38,7 +38,7 @@
           <img
             src="/images/DSI_Solid_Core_Thatched Cottage V1_170731 1.jpg"
             alt="Placeholder 2"
-            class="absolute top-[317px] left-[257px] w-[170px] h-[235px] object-cover hidden md:block"
+            class="absolute top-[317px] left-[213px] w-[170px] h-[235px] object-cover hidden md:block"
           />
           <img
             src="/images/DSI_Solid_Core_Thatched Cottage V1_170731 1.jpg"
