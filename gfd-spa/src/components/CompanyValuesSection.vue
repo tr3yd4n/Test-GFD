@@ -1,5 +1,5 @@
 <template>
-  <section class="w-full md:h-[730px] pt-14 lg:pt-32">
+  <section class="w-full md:h-[730px] lg:pt-32">
     <div class="max-w-8xl mx-auto flex flex-col md:flex-row gap-6 lg:pl-20">
       <!-- Image Column -->
       <div class="w-full md:w-1/2 lg:w-1/3">
@@ -92,8 +92,8 @@
 </div>
 
         <p
-          class="p-8 ml-2 mb-8 bg-black text-sm md:text-base lg:text-lg text-white md:bg-transparent md:text-black md:mb-1 md:p-2 md:hidden"
-          style="font-family: 'Red Hat Display', sans-serif"
+          class="font-redhat p-8 ml-2 mb-8 bg-black text-sm md:text-base lg:text-lg text-white md:bg-transparent md:text-black md:mb-1 md:p-2 md:hidden"
+       
         >
           As the world becomes more automated by the day, we promise never to
           lose the personal touch with our customers that we built the

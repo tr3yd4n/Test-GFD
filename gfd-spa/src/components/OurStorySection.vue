@@ -56,27 +56,51 @@
     </div>
   </section>
   <section class="w-full mt-32 lg:hidden relative mb-60">
-    <div class="w-72 h-64 bg-neutral-100">
+        
       <p
-        class="w-[294px] h-[286px] text-sm md:text-base lg:text-lg pt-4 pl-5 pr-4"
-        style="font-family: 'Red Hat Display', sans-serif"
+        class="font-redhat sm:w-full h-[286px] text-sm md:text-base lg:text-lg pt-4 ml-12 pl-6 bg-neutral-100"
+
       >
         Over the past 15 years, we have expanded our portfolio of products
         across a range of composite, aluminium, uPVC and security products. Our
         goal was always to offer a complete home improvement solution, which we
         now carry out nationwide through GFD Homes.
       </p>
-    </div>
+
 
     <img
-      class="absolute w-[145px] h-[261px] top-[200px] left-[20px] bg-transparent"
+      class="absolute w-[145px] h-[261px] top-[162px] left-[75px] bg-transparent z-1"
       src="/images/ourStoryImages/Frame 2188 1.png"
-      alt="Smaller product"
+      alt="Door"
     />
     <img
-      class="absolute w-[196px] h-[270px] top-[180px] left-[180px] bg-transparent"
+      class="absolute w-[196px] h-[270px] top-[181px] left-[128px] bg-transparent"
       src="/images/ourStoryImages/Group 665.png"
-      alt="Larger product"
+      alt="Building"
     />
+    <img
+      class="absolute w-[93px] h-[45px] top-[204px] left-[4px] bg-transparent z-2"
+      src="/images/ourStoryImages/Ellipse 30.png"
+      alt="Ellipse"
+    />
+    <img
+      class="absolute w-[93px] h-[45px] top-[204px] left-[4px] bg-transparent z-2"
+      style="transform: rotate(-5.49deg)"
+      src="/images/ourStoryImages/Ellipse 30.png"
+      alt="Ellipse"
+    />
+    <div
+      class="absolute text-center text-black font-['Red_Hat_Display'] font-normal text-xs top-[209px] left-[20px] md:text-base md:top-[372px] md:left-[1018px] transition-all duration-700 ease-in-out z-3"
+      style="transform: rotate(-5deg)"
+    >
+      Composite<br />Door
+    </div>
+    <!-- Line -->
+    <div class="absolute flex items-center top-[228px] left-[84px] gap-0 z-4">
+      <!-- Black circle -->
+      <div class="w-[6px] h-[6px] bg-black rounded-full"></div>
+      <!-- Black line -->
+      <div class="w-[21px] h-[1px] bg-black"></div>
+    </div>
   </section>
 </template>
