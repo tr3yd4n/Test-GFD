@@ -43,8 +43,9 @@ const users = [
 ];
 </script>
 
-<template>
-  <!-- Our Story -->
+<template>  
+<div class="w-full overflow-hidden">
+ <!-- Our Story -->
   <OurStorySection />
 
   <!--Company Values & Ethos-->
@@ -52,6 +53,9 @@ const users = [
 
   <!--Our Team Section -->
   <OurTeamSection />
+
+</div>
+ 
 
   
 
