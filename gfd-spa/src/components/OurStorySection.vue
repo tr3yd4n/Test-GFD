@@ -84,7 +84,7 @@
     />
     </div>
     <!--Group-->
-    <div class="absolute left-[160px] top-[500px]">
+    <div class="absolute left-[160px] top-[500px] hidden lg:block">
       <div class="w-[701px] h-96 relative">
         <div
           class="w-40 h-64 p-1.5 left-[395.28px] top-[52.82px] absolute origin-top-left rotate-[11.77deg] bg-white shadow-[0px_4px_4px_0px_rgba(0,0,0,0.25)] inline-flex justify-start items-center gap-2.5"
@@ -138,7 +138,7 @@
           class="w-6 h-0 left-[179px] top-[35.12px] absolute outline-1 outline-offset-[-0.50px] outline-black"
         ></div>
         <div
-          class="w-14 h-0 left-[624px] top-[221.12px] absolute outline-1 outline-offset-[-0.50px] outline-white"
+          class="w-14 h-0 left-[565px] top-[221.12px] absolute outline-1 outline-offset-[-0.50px] outline-white"
         ></div>
       </div>
     </div>
