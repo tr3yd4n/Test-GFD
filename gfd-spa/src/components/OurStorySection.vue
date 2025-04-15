@@ -203,12 +203,12 @@
     </p>
 
     <img
-      class="absolute w-[145px] h-[261px] top-[162px] left-[75px] bg-transparent z-1"
+      class="absolute w-[145px] h-[281px] top-[162px] left-[75px] bg-transparent z-1"
       src="/images/ourStoryImages/Frame 2188 1.png"
       alt="Door"
     />
     <img
-      class="absolute w-[196px] h-[270px] top-[181px] left-[128px] bg-transparent"
+      class="absolute w-[196px] h-[290px] top-[181px] left-[128px] bg-transparent"
       src="/images/ourStoryImages/Group 665.png"
       alt="Building"
     />
@@ -230,7 +230,7 @@
       Composite<br />Door
     </div>
     <!-- Line -->
-    <div class="absolute flex items-center top-[228px] left-[84px] gap-0 z-4">
+    <div class="absolute flex items-center top-[238px] left-[84px] gap-0 z-4">
       <!-- Black circle -->
       <div class="w-[6px] h-[6px] bg-black rounded-full"></div>
       <!-- Black line -->
